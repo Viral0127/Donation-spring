@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 29 Jun, 2022 6:12:05 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.model.Donatenow" table="DONATENOW">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="increment" />
+        </id>
+        <property name="Mobile" type="java.lang.String">
+            <column name="MOBILE" />
+        </property>
+        <property name="Clothesquantity" type="java.lang.String">
+            <column name="CLOTHESQUANTITY" />
+        </property>
+        <property name="Clothesdescription" type="java.lang.String">
+            <column name="CLOTHESDESCRIPTION" />
+        </property>
+        <property name="Shoesquantity" type="java.lang.String">
+            <column name="SHOESQUANTITY" />
+        </property>
+        <property name="Shoesdescription" type="java.lang.String">
+            <column name="SHOESDESCRIPTION" />
+        </property>
+        <property name="Stationeryquantity" type="java.lang.String">
+            <column name="STATIONERYQUANTITY" />
+        </property>
+        <property name="Stationerydescription" type="java.lang.String">
+            <column name="STATIONERYDESCRIPTION" />
+        </property>
+        <property name="Glossaryquantity" type="java.lang.String">
+            <column name="GLOSSARYQUANTITY" />
+        </property>
+        <property name="Glossarydescription" type="java.lang.String">
+            <column name="GLOSSARYDESCRIPTION" />
+        </property>
+        <property name="Date" type="java.lang.String">
+            <column name="DATE" />
+        </property>
+        <property name="Time" type="java.lang.String">
+            <column name="TIME" />
+        </property>
+        <property name="Pincode" type="java.lang.String">
+            <column name="PINCODE" />
+        </property>
+        <property name="Address1" type="java.lang.String">
+            <column name="ADDRESS1" />
+        </property>
+        <property name="Address2" type="java.lang.String">
+            <column name="ADDRESS2" />
+        </property>
+        <property name="Subject" type="java.lang.String">
+            <column name="SUBJECT" />
+        </property>
+    </class>
+</hibernate-mapping>
